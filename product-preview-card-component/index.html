@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Product Preview Card</title>
+	</head>
+	<body>
+		<main class="d-flex d-flex-ai-c- d-flex-jc-sb">
+			<div class="container">
+				<article class="product-card">
+					<div class="product-card__img-box"></div>
+					<div class="bg-light product-card__body">
+						<span class="text-muted product-card__body-meta">
+							PERFUME
+						</span>
+						<h3 class="h1 py-20">
+							Gabrielle Essence Eau De Parfum
+						</h3>
+						<p class="text-muted">
+							A floral, solar and voluptuous interpretation
+							composed by Olivier Polge, Perfumer-Creator for the
+							House of CHANEL.
+						</p>
+						<div class="pt-24 pb-20 d-flex d-flex-ai-c">
+							<span
+								class="h1 font-heading text-bold text-primary-cyan mr-20"
+							>
+								$149.99
+							</span>
+							<span
+								class="text-muted text-decoration-line-through"
+							>
+								$169.99
+							</span>
+						</div>
+						<button
+							class="btn btn--default btn--block btn--primary"
+							type="button"
+						>
+							<svg class="icon mr-8">
+								<use href="./images/icon-cart.svg#cart"></use>
+							</svg>
+							Add to Cart
+						</button>
+					</div>
+				</article>
+			</div>
+		</main>
+	</body>
+</html>
