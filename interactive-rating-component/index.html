@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Interactive rating component</title>
+
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- styles -->
+		<link rel="stylesheet" href="./styles.css" />
+		<!-- js -->
+		<script defer src="./app.js"></script>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<main class="d-flex d-flex-ai-c d-flex-jc-c">
+			<div class="container">
+				<article class="mx-auto rating">
+					<div class="rating__default-content">
+						<div class="rating__dot pos-rel mb-28">
+							<object
+								class="icon pos-abs pos-centered"
+								data="./images/icon-star.svg"
+								type="image/svg+xml"
+							></object>
+						</div>
+						<form id="form">
+							<h2 class="h2 mb-16">How did we do?</h2>
+							<p class="text-muted mb-28">
+								Please let us know how we did with your support
+								request. All feedback is appreciated to help us
+								improve our offering!
+							</p>
+							<div
+								class="d-flex d-flex-nowrap d-flex-jc-sb mb-28 rating__dots-box"
+							></div>
+							<button
+								id="submitBtn"
+								class="btn btn--default btn--block btn--rounded btn--primary text-uppercase"
+								type="submit"
+							>
+								Submit
+							</button>
+						</form>
+					</div>
+					<div
+						class="rating__success-content rating__success-content--hidden"
+					>
+						<object
+							class="d-block mx-auto mb-28"
+							data="./images/illustration-thank-you.svg"
+							type="image/svg+xml"
+						></object>
+						<span class="d-block mx-auto mb-32 rating__meta"
+							>You selected 4 out of 5</span
+						>
+						<h2 class="h2 mb-16">Thank you!</h2>
+						<p class="text-muted mb-16">
+							We appreciate you taking the time to give a rating.
+							If you ever need more support, don’t hesitate to get
+							in touch!
+						</p>
+					</div>
+				</article>
+			</div>
+		</main>
+
+		<!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+	</body>
+</html>
