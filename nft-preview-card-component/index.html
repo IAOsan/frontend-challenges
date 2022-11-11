@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | NFT preview card component</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+			integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./styles.css" />
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<main class="d-flex d-flex-jc-c d-flex-ai-c">
+			<div class="container">
+				<div class="rounded card">
+					<div class="rounded-sm card__image-box">
+						<a href="#">
+							<img
+								class="img-fluid"
+								src="./images/image-equilibrium.jpg"
+								alt=""
+							/>
+							<div
+								class="d-flex d-flex-jc-c d-flex-ai-c card__image-overlay"
+							>
+								<svg class="icon icon--md">
+									<use
+										xlink:href="./images/sprite.svg#icon-view"
+										href="./images/sprite.svg#icon-view"
+									></use>
+								</svg>
+							</div>
+						</a>
+					</div>
+					<h3 class="h3 mt-28 mb-20">
+						<a href="#"> Equilibrium #3429 </a>
+					</h3>
+					<p class="text-muted font-light font-sm">
+						Our Equilibrium collection promotes balance and calm.
+					</p>
+					<div class="d-flex d-flex-jc-sb my-16">
+						<p class="text-cyan font-bold h4">
+							<svg class="icon">
+								<use
+									xlink:href="./images/sprite.svg#icon-ethereum"
+									href="./images/sprite.svg#icon-ethereum"
+								></use>
+							</svg>
+							0.041 ETH
+						</p>
+						<p class="text-muted h4">
+							<svg class="icon">
+								<use
+									xlink:href="./images/sprite.svg#icon-clock"
+									href="./images/sprite.svg#icon-clock"
+								></use>
+							</svg>
+							3 days left
+						</p>
+					</div>
+					<hr />
+					<div class="mt-16 d-flex d-flex-ai-c">
+						<div class="card__user-image">
+							<img
+								class="img-fluid"
+								src="./images/image-avatar.png"
+								alt=""
+							/>
+						</div>
+						<p class="font-light font-sm">
+							<span class="text-muted">Creation of</span>
+							<a href="#"> Jules Wyvern </a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<div class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+		</div>
+	</body>
+</html>
