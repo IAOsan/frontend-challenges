@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Stats preview card component</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+			integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./styles.css" />
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<main class="d-flex d-flex-ai-c d-flex-jc-c">
+			<div class="container">
+				<article class="d-flex stats-card">
+					<div class="stats-card__body">
+						<h3 class="h2 text-white mb-28">
+							Get <span class="text-violet">insights</span> that
+							help your business grow.
+						</h3>
+						<p class="">
+							Discover the benefits of data analytics and make
+							better decisions regarding revenue, customer
+							experience, and overall efficiency.
+						</p>
+						<div class="d-flex stats-card__overview">
+							<p>
+								<span
+									class="text-white d-block font-heading font-bold h3"
+									>10k+</span
+								>
+								<span class="font-sm">companies</span>
+							</p>
+							<p>
+								<span
+									class="text-white d-block font-heading font-bold h3"
+									>314</span
+								>
+								<span class="font-sm">templates</span>
+							</p>
+							<p>
+								<span
+									class="text-white d-block font-heading font-bold h3"
+									>12m+</span
+								>
+								<span class="font-sm">queries</span>
+							</p>
+						</div>
+					</div>
+					<div class="stats-card__image-box">
+						<picture>
+							<source
+								media="(min-width: 1140px)"
+								class="img-fluid"
+								srcset="./images/image-header-desktop.jpg"
+							/>
+							<img
+								class="img-fluid"
+								src="./images/image-header-mobile.jpg"
+								alt=""
+							/>
+						</picture>
+					</div>
+				</article>
+			</div>
+		</main>
+
+		<div class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+		</div>
+	</body>
+</html>
