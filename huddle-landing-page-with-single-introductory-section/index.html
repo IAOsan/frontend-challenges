@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+			integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<link rel="stylesheet" href="./styles.css" />
+
+		<title>
+			Frontend Mentor | Huddle landing page with single introductory
+			section
+		</title>
+	</head>
+	<body>
+		<main class="d-flex d-flex-ai-c d-flex-jc-c">
+			<div class="container">
+				<section class="intro">
+					<div class="row">
+						<div class="col-lg-7">
+							<img
+								class="d-block pos-rel pos-top-left intro__brand"
+								src="./images/logo.svg"
+								alt=""
+							/>
+							<img
+								class="d-block img-fluid"
+								src="./images/illustration-mockups.svg"
+								alt=""
+							/>
+						</div>
+						<div
+							class="col-lg-5 pos-rel d-flex d-flex-wrap d-flex-ai-c"
+						>
+							<div>
+								<h1 class="h2 intro__heading">
+									Build The Community Your Fans Will Love
+								</h1>
+								<p class="mt-8">
+									Huddle re-imagines the way we build
+									communities. You have a voice, but so does
+									your audience. Create connections with your
+									users as you engage in genuine discussion.
+								</p>
+								<a
+									href="./register"
+									class="btn btn--default btn--rounded btn--block btn--light drop-shadow intro__cta"
+								>
+									Register
+								</a>
+							</div>
+							<ul class="social-list d-flex intro__social-list">
+								<li class="social-list__item">
+									<a
+										class="social-list__item-link"
+										href="./facebook"
+									>
+										<svg
+											class="icon social-list__item-icon"
+										>
+											<use
+												xlink:href="./images/sprite.svg#logo-facebook"
+											></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-list__item">
+									<a
+										class="social-list__item-link"
+										href="./twitter"
+									>
+										<svg
+											class="icon social-list__item-icon"
+										>
+											<use
+												xlink:href="./images/sprite.svg#logo-twitter"
+											></use>
+										</svg>
+									</a>
+								</li>
+								<li class="social-list__item">
+									<a
+										class="social-list__item-link"
+										href="./instagram"
+									>
+										<svg
+											class="icon social-list__item-icon"
+										>
+											<use
+												xlink:href="./images/sprite.svg#logo-instagram"
+											></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+	</body>
+</html>
