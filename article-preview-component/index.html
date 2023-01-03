@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+			integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<link rel="stylesheet" href="./styles.css" />
+
+		<script defer src="./app.js"></script>
+
+		<title>Frontend Mentor | Article preview component</title>
+	</head>
+	<body>
+		<main class="d-flex d-flex-ai-c d-flex-jc-c">
+			<div class="container">
+				<article class="article">
+					<div class="row row--nogap">
+						<div class="col-lg-5">
+							<div
+								style="--bgImg: url('./images/drawers.jpg')"
+								class="article__img-box"
+							></div>
+						</div>
+						<div class="col-lg-7">
+							<div class="article__body">
+								<h3 class="h3 mb-20">
+									Shift the overall look and feel by adding
+									these wonderful touches to furniture in your
+									home
+								</h3>
+								<p class="mb-md-36 mb-20">
+									Ever been in a room and felt like something
+									was missing? Perhaps it felt slightly bare
+									and uninviting. I’ve got some simple tips to
+									help you make any room feel complete.
+								</p>
+								<div
+									class="d-flex d-flex-ai-c pos-rel article__share"
+								>
+									<img
+										class="img-fluid rounded-circle mr-sm-8 mr-20 article__share-user"
+										src="./images/avatar-michelle.jpg"
+										alt=""
+									/>
+									<p>
+										<b class="d-block w-100"
+											>Michelle Appleton</b
+										><span class="d-block w-100 text-muted"
+											>28 Jun 2020</span
+										>
+									</p>
+									<button
+										class="btn rounded-circle article__share-btn"
+										type="button"
+									>
+										<svg
+											class="icon icon--md article__share-icon"
+										>
+											<use
+												xlink:href="./images/sprite.svg#icon-share"
+											></use>
+										</svg>
+									</button>
+									<div
+										class="d-flex d-flex-ai-c text-light article__share-overlay"
+									>
+										<span
+											class="text-muted letter-spacing mr-sm-8 mr-20"
+											>SHARE</span
+										>
+										<ul
+											class="d-flex d-flex-ai-c social-list"
+										>
+											<li class="social-list__item">
+												<a
+													href="#facebook"
+													class="social-list__item-link d-block"
+												>
+													<svg
+														class="icon icon--lg d-block"
+													>
+														<use
+															xlink:href="./images/sprite.svg#icon-facebook"
+														></use>
+													</svg>
+												</a>
+											</li>
+											<li class="social-list__item">
+												<a
+													href="#twitter"
+													class="social-list__item-link d-block"
+												>
+													<svg
+														class="icon icon--lg d-block"
+													>
+														<use
+															xlink:href="./images/sprite.svg#icon-twitter"
+														></use>
+													</svg>
+												</a>
+											</li>
+											<li class="social-list__item">
+												<a
+													href="#pinterest"
+													class="social-list__item-link d-block"
+												>
+													<svg
+														class="icon icon--lg d-block"
+													>
+														<use
+															xlink:href="./images/sprite.svg#icon-pinterest"
+														></use>
+													</svg>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</main>
+	</body>
+</html>
